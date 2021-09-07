@@ -77,7 +77,7 @@ if __name__ == '__main__':
     glutDisplayFunc(desenha)
     glEnable(GL_DEPTH_TEST)
     glClearColor(0.,0.,0.,1.)
-    gluPerspective(45,width/height,0.1,100.0)
+    gluPerspective(55,width/height,0.1,100.0)
     glTranslatef(0.0,0.0,-8)
     glutTimerFunc(10,timer,1)
     glRotatef(45,2,1,1)
